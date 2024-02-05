@@ -12,7 +12,7 @@ namespace console_calculator
             {
                 Console.Clear();
                 double a, b;
-                string c;
+                string result;
                 try
                 {
                     Console.WriteLine("enter a number ");
@@ -27,8 +27,8 @@ namespace console_calculator
                     continue;
                 }
                 Console.WriteLine("select an operation: '+' '-' '*' '/' ");
-                c = Console.ReadLine();
-                switch (c)
+                result = Console.ReadLine();
+                switch (result)
                 {
                     case "+":
                         Console.WriteLine(a + b);

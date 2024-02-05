@@ -11,14 +11,14 @@ namespace console_calculator
             while (true)
             {
                 Console.Clear();
-                double the first number, b;
+                double the first number, the second number;
                 string result;
                 try
                 {
                     Console.WriteLine("enter a number ");
                     the first number = double.Parse(Console.ReadLine());
                     Console.WriteLine("enter a number ");
-                    b = double.Parse(Console.ReadLine());
+                    the second number = double.Parse(Console.ReadLine());
                 }
                 catch (Exception)
                 {
@@ -31,16 +31,16 @@ namespace console_calculator
                 switch (result)
                 {
                     case "+":
-                        Console.WriteLine(the first number + b);
+                        Console.WriteLine(the first number + the second number);
                         break;
                     case "-":
-                        Console.WriteLine(the first number - b);
+                        Console.WriteLine(the first number - the second number);
                         break;
                     case "*":
-                        Console.WriteLine(the first number * b);
+                        Console.WriteLine(the first number * the second number);
                         break;
                     case "/":
-                        Console.WriteLine(the first number / b);
+                        Console.WriteLine(the first number / the second number);
                         break;
                     default:
                         Console.WriteLine("Mistake! Try again!");

@@ -22,7 +22,7 @@ namespace console_calculator
                 }
                 catch (Exception)
                 {
-                    Console.WriteLine("The wrong symbol!!");
+                    Console.WriteLine("The wrong symbol!!!");
                     Console.ReadLine();
                     continue;
                 }

@@ -43,7 +43,7 @@ namespace console_calculator
                         Console.WriteLine(the first number / the second number);
                         break;
                     default:
-                        Console.WriteLine("Mistake! Try again!");
+                        Console.WriteLine("Mistake. Try again!");
                         break;
                 }
 
